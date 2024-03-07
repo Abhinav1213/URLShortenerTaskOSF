@@ -1,5 +1,9 @@
 # URL Shortener 🔗
-A simple web application built with Node.js, Express, and MongoDB for you to readily get a shortened URL to use
+A simple web application built with Node.js, Express, and MongoDB for you to readily get a shortened URL to use.
+
+The URL shortener must be implemented at the backend together with a validator, which must be able to indicate if the generated link is actually working. The communication between backend and frontend must be handled by a RESTful API, where the results will be shown.
+
+It's expected that on top of shortening a URL, we are also able to keep an access count, so each time the URL is accessed, we can track a list of these accumulated values and rank the URLs properly.
 
 ## User Stories
 1. User can input a set of URL aiming to be shortened
